@@ -1,0 +1,46 @@
+form {
+    width: 450px;
+    margin: auto;
+    padding-top: 100px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+.form-group {
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+    padding-left: 100px;
+    padding-right: 100px;
+
+}
+
+#language {
+    display: flex;
+    align-items: center;
+}
+.status-date {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 60px;
+    margin-left: 100px;
+}
+#role,
+#date {
+    margin-right: 20px;
+    width: 97px;
+
+
+}
+.cb {
+    display: flex;
+    align-items: center;
+
+}
+#txt {
+    align-self: center;
+}
+legend {
+    border: 1px solid black;
+}

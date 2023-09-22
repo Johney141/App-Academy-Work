@@ -1,0 +1,29 @@
+fieldset {
+    width: 500px;
+    padding-top: 20px;
+    margin: 100px auto;
+    position: relative;
+    border:  1px solid black;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+legend {
+    position: absolute;
+    top: -10px;
+    left: 60px;
+    background-color: white ;
+    border: 1px solid black;
+}
+
+label,
+input {
+    display: block;
+    margin-bottom: 10px;
+}
+.checkbox {
+    display: inline;
+}

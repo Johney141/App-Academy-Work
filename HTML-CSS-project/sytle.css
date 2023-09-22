@@ -1,0 +1,51 @@
+body {
+
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+#sign-in {
+    padding-top: 25px;
+}
+.nav-bar {
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    padding: 5px;
+
+    display: flex;
+    justify-content: space-around;
+}
+.ms {
+    margin: auto 150px auto 150px;
+    width: auto;
+    display: flex;
+    flex-direction: column;
+
+}
+
+#title-text {
+    border: 1px solid black;
+    text-align: center;
+    padding: 10px;
+}
+
+.social a {
+    text-decoration: none;
+}
+
+#t-image {
+    padding: 50px 50% 50px;
+    border: 1px solid black;
+
+
+
+}
+.lnk {
+    border: 1px solid black;
+    display: flex;
+
+}
+.lnk-heading {
+    text-align: center;
+}
